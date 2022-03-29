@@ -19,7 +19,7 @@ var starImg;
 
 const W_KEY = 87;
 const S_KEY = 83;
-const D_KEY = 60;
+const D_KEY = 68;
 const A_KEY = 65;
 
 
@@ -37,7 +37,7 @@ function setup() {
   // This is a *numbered* sequence of PNG files
   // We add animation to different sprites
   ghost.addAnimation('floating', 'assets/ghost_standing0001.png', 'assets/ghost_standing0002.png');
- box.addAnimation('floating', 'assets/box1.png', 'assets/box2.png', 'assets/box3.png','assets/box4.png','assets/box4.png');
+ box.addAnimation('floating', 'assets/girl2.png', 'assets/girl3.png','assets/girl4.png','assets/girl5.png','assets/girl6.png');
   // create a star in the middle of the screen
   //star = createSprite(width/2, height/2);
   //star.addImage('star', starImg);
